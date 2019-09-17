@@ -63,4 +63,5 @@ The final operator to create is the data quality operator, which is used to run 
 For example one test could be a SQL statement that checks if certain column contains NULL values by counting all the rows that have NULL in the column. We do not want to have any NULLs so expected result would be 0 and the test would compare the SQL statement's outcome to the expected result.
 
 > Note about Workspace
-> After you have updated the DAG, you will need to run /opt/airflow/start.sh command to start the Airflow web server. > > Once the Airflow web server is ready, you can access the Airflow UI by clicking on the blue Access Airflow button.
+> After you have updated the DAG, you will need to run /opt/airflow/start.sh command to start the Airflow web server.
+> Once the Airflow web server is ready, you can access the Airflow UI by clicking on the blue Access Airflow button.
